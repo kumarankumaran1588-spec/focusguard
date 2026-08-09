@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/text"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set up all four items below, then pick the apps to block."
+            android:textColor="@color/text"
+            android:paddingBottom="16dp" />
+
+        <TextView android:id="@+id/statusPassword" style="@style/StatusLine" />
+        <TextView android:id="@+id/statusApps" style="@style/StatusLine" />
+        <TextView android:id="@+id/statusAccessibility" style="@style/StatusLine" />
+        <TextView android:id="@+id/statusOverlay" style="@style/StatusLine" />
+        <TextView android:id="@+id/statusDeviceAdmin" style="@style/StatusLine" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#22000000"
+            android:layout_marginVertical="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSetPassword"
+            style="@style/FullButton"
+            android:text="1. Set / change password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAccessibility"
+            style="@style/FullButton"
+            android:text="2. Enable accessibility service" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOverlay"
+            style="@style/FullButton"
+            android:text="3. Allow display over other apps" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDeviceAdmin"
+            style="@style/FullButton"
+            android:text="4. Enable uninstall protection" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSelectApps"
+            style="@style/FullButton"
+            android:backgroundTint="@color/primary_dark"
+            android:text="Select apps to block" />
+
+    </LinearLayout>
+</ScrollView>

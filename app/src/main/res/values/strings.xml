@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FocusGuard</string>
+    <string name="accessibility_label">FocusGuard app blocking</string>
+    <string name="accessibility_description">Detects when a blocked app is opened and shows the block screen. FocusGuard uses the Accessibility API solely to enforce the app blocks you configure. It does not collect or transmit any screen content.</string>
+    <string name="device_admin_explanation">Enabling this prevents FocusGuard from being uninstalled until you enter your password. This keeps your blocks in place during moments of weak willpower.</string>
+</resources>

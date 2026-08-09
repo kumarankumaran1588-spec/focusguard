@@ -1,0 +1,14 @@
+<resources>
+    <style name="StatusLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingVertical">4dp</item>
+    </style>
+    <style name="FullButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginVertical">6dp</item>
+    </style>
+</resources>
